@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/download"
+    tools:context="com.example.akshay.localpress.login"
+    >
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c85b484b"
+        android:padding="10dp"
+    android:layout_margin="30dp"
+        android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="#f9f20f2d"
+       />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER USER DETAILS"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#f7f4f4"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user Name"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#f7f4f4"
+            android:layout_weight="0.08" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#a9dadada"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#f7f4f4"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="example@gmail.com"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="#a9dadada"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#f7f4f4"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="#a9dadada"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone no.."
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#f7f4f4"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=".........."
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:background="#a9dadada"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ENTER"
+            android:background="#f2e01d"
+            android:layout_marginTop="10dp"
+            />
+
+</LinearLayout>
+</ScrollView>
+</RelativeLayout>
